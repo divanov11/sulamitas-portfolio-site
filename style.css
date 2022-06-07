@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .5px;
+}
+
+.page-wrapper{
+    display: flex;
+    max-width: 1500px;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+}
+
+.side2{
+    width: 40%;
+}
+
+.wrapper{
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    line-height: 1.3em;
+    font-size: 13px;
+}
+
+.card1{
+    background-color: #f1f1f1;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 13px;
+    color: #354487;
+}
+
+@media(max-width:900px){
+    .page-wrapper, .side1, .side2{
+        width: 90%;
+    }
+}
